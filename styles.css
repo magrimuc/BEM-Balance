@@ -9,6 +9,11 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url('MarionLogoI.png'); /* Pfad zum Hintergrundbild */
+    background-size: 85%; /* Das Bild wird auf 25% seiner ursprünglichen Größe skaliert */
+    background-position: center bottom 0.3in;/* 2 Zoll nach links, 3 Zoll über dem unteren Rand */
+    background-attachment: fixed; /* Das Bild bleibt fixiert */
+    background-repeat: no-repeat; /* Verhindert Wiederholung */
 }
 .header-box {
     background-color: #ef7d2d;
